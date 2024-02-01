@@ -1,18 +1,18 @@
 import { useState } from 'react';
-import './App.css';
+import './assets/CSS/App.css'
 
 
 function App() {
 
   return (
-    <div class="home">
+    <div class="home border-dark">
   <div class="components">
     <div class="home2">
       <div class="left-side">
         <div class="ayush-chandan">Ayush Chandan</div>
         <div class="software-engineer">Software Engineer</div>
         <div class="button-div">
-          <div class="button">
+          <div class="btn btn-md mr-2 mb-2 btn-primary button">
             <div class="learn-more">
               <span onClick={() => window.open('https://github.com/ashkewww')}>
                 <span class="learn-more-span">L</span>
@@ -28,7 +28,7 @@ function App() {
           <img class="microsoft-computer-1" src="Microsoft-Computer.gif" />
         </div>
       </div>
-      <div class="window">
+      <div class="window card card-tertiary">
         <div class="bluebar">
           <div class="icons">
             <img class="bluebar-cross" src="Bluebar_cross.svg" />
