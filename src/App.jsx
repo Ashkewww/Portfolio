@@ -25,18 +25,18 @@ function App() {
           <div class="website-still-in-development">
             Website still in development
           </div>
-          <img class="microsoft-computer-1" src="microsoft-computer-10.png" />
+          <img class="microsoft-computer-1" src="Microsoft-Computer.gif" />
         </div>
       </div>
       <div class="window">
         <div class="bluebar">
           <div class="icons">
-            <img class="bluebar-cross" src="bluebar-cross0.png" />
-            <img class="bluebar-maximize" src="bluebar-maximize0.png" />
-            <img class="bluebar-minimize" src="bluebar-minimize0.png" />
+            <img class="bluebar-cross" src="Bluebar_cross.svg" />
+            <img class="bluebar-maximize" src="Bluebar_maximize.svg" />
+            <img class="bluebar-minimize" src="Bluebar_minimize.svg" />
           </div>
         </div>
-        <img class="img-20230317173130-1" src="img-20230317173130-10.png" />
+        <img class="img-20230317173130-1" src="Me.jpg" />
       </div>
     </div>
   </div>
