@@ -14,7 +14,7 @@ function App() {
         <div class="button-div">
           <div class="button">
             <div class="learn-more">
-              <span>
+              <span onClick={() => window.open('https://github.com/ashkewww')}>
                 <span class="learn-more-span">L</span>
                 <span class="learn-more-span2">earn More</span>
               </span>

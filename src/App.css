@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'Mouse';
+  src: url("Mouse.otf") format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+
 .home,
 .home * {
     box-sizing: border-box;
@@ -41,7 +50,7 @@
 .ayush-chandan {
   color: #e2e2e2;
   text-align: right;
-  font-family: "PixeloidMono-Regular", sans-serif;
+  font-family: 'Mouse', sans-serif;
   font-size: 72px;
   font-weight: 400;
   position: relative;
@@ -51,7 +60,7 @@
 .software-engineer {
   color: #e2e2e2;
   text-align: right;
-  font-family: "PixeloidMono-Regular", sans-serif;
+  font-family: 'Mouse', sans-serif;
   font-size: 36px;
   font-weight: 400;
   position: relative;
@@ -88,22 +97,23 @@
 .learn-more {
   color: #000000;
   text-align: center;
-  font-family: "PixeloidSans-Regular", sans-serif;
+  font-family: 'Mouse', sans-serif;
   font-size: 22px;
   font-weight: 400;
   position: relative;
   width: 155.66px;
+  cursor: pointer;
 }
 .learn-more-span {
   color: #000000;
-  font-family: "PixeloidSans-Regular", sans-serif;
+  font-family: 'Mouse', sans-serif;
   font-size: 22px;
   font-weight: 400;
   text-decoration: underline;
 }
 .learn-more-span2 {
   color: #000000;
-  font-family: "PixeloidSans-Regular", sans-serif;
+  font-family: 'Mouse', sans-serif;
   font-size: 22px;
   font-weight: 400;
 }
@@ -123,7 +133,7 @@
 .website-still-in-development {
   color: #ebebeb;
   text-align: left;
-  font-family: "PixeloidSans-Regular", sans-serif;
+  font-family: 'Mouse', sans-serif;
   font-size: 32px;
   font-weight: 400;
   position: relative;
@@ -202,4 +212,5 @@
   top: calc(50% - 216.5px);
   box-shadow: 4px 4px 2px 4px rgba(0, 0, 0, 0.25);
   object-fit: cover;
+  object-position: top;
 }
