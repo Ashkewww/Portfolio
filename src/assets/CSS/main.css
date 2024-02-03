@@ -9,7 +9,9 @@
 /**
  * = Backgrounds
  */
-
+body {
+    background-color: #008081;
+}
 
 .bg-primary {
     background-color: #c0c0c0 !important;
@@ -1617,6 +1619,10 @@ button.section-black:focus {
 
 .navbar-tertiary {
     background: #000181;
+}
+
+.navbar-black {
+    background: #151515;
 }
 
 .navbar-footer {
