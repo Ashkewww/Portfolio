@@ -1,5 +1,5 @@
 ﻿import { useState } from 'react';
-
+import '../CSS/App.css';
 import '../CSS/home.css';
 import textData from "../texts/source-texts.json"
 
