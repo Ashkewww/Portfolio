@@ -19,8 +19,7 @@
 	flex-direction: column;
 	gap: 40px;
 	align-items: center;
-	justify-content: flex-start;
-	width: auto;
+	width: 100%;
 	height: fit-content;
 	position: absolute;
 	left: 0px;
