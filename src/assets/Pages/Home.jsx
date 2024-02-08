@@ -7,6 +7,8 @@ import textData from "../texts/source-texts.json"
 const Home = () => {
     const [time, setTime] = useState(new Date());
 
+
+
     setInterval(() => {
         setTime(new Date());
     }, 1000);
@@ -83,15 +85,15 @@ const Home = () => {
             </div>
         </div>
         <nav
-            className="fixed-top navbar navbar-expand-lg navbar-dark justify-content-between align-items-center ">
-            <div className="time text-center w-100 banner">
-                <p className="time text-uppercase text-light font-weight-bold w-100 left-banner bg-dark ">{textData['Education-Title']}</p>
+            className="fixed-top navbar navbar-expand-lg navbar-dark justify-content-between align-items-center">
+            <div className="time text-center left-banner ">
+                <div className="time text-uppercase text-light bg-dark animate-banner"><div>{textData.lorem160}</div></div>
             </div>
-            <div className="time text-center">
+            <div className="time text-center time-banner">
                 <div className="time text-uppercase text-tertiary font-weight-bold">{time.toLocaleTimeString()}</div>
             </div>
-            <div className="time text-center w-100 banner">
-                <p className="time text-uppercase text-light font-weight-bold w-100 right-banner bg-dark">{textData['Education-Title']}</p>
+            <div className="time text-center right-banner">
+                <div className="time text-uppercase text-light bg-dark animate-banner"><div>{textData.lorem160}</div></div>
             </div>
         </nav>
     </>

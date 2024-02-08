@@ -383,27 +383,34 @@
 	width: fit-content;
 }
 
-.banner right-banner {
+.animate-banner {
 	overflow: hidden;
-	white-space: nowrap;
-	box-shadow: inset 0px 5px 10px 2px rgba(0,0,0,0.3);
-	animation: move 20s infinite linear;
-	color: #EBB55F;
+  	white-space: nowrap;
 }
 
-.banner left-banner {
-	overflow: hidden;
-	white-space: nowrap;
-	box-shadow: inset 0px 5px 10px 2px rgba(0,0,0,0.3);
-	animation: move 20s infinite linear;
-	color: #EBB55F;
+.animate-banner div {
+	position: relative;
+  	display: inline-block;
+  	animation: move 40s infinite linear;
 }
 
 @keyframes move {
-  from{
-    left: 800px;
+	from {
+	  left: 400px;
+	}
+	to {
+	  left: -2800px;
+	}
   }
-  to{
-    left: -4800px;
-  }
+
+.left-banner {
+	width: 45%;
+}
+
+.right-banner {
+	width: 45%;
+}
+
+.time-banner {
+	width: 10%;
 }
