@@ -1,0 +1,415 @@
+.home-page,
+.home-page * {
+	box-sizing: border-box;
+}
+
+.home-page {
+	display: flex;
+	flex-direction: column;
+	background: #008080;
+	padding: 0px 0px 0px 0px;
+	height: auto;
+	width: 100%;
+	position: relative;
+	overflow: visible;
+}
+
+.components {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	align-items: center;
+	width: 100%;
+	height: fit-content;
+	position: absolute;
+	left: 0px;
+}
+
+.hi-i-m-ayush {
+	color: #e2e2e2;
+	padding: 120px 0px 60px 0px;
+	text-align: center;
+	font-size: 48px;
+	font-weight: 400;
+	position: relative;
+	height: fit-content;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.home-introduction {
+	padding: 10px 20px 10px 20px;
+	display: flex;
+	flex-direction: row;
+	gap: 34px;
+	align-items: flex-start;
+	justify-content: center;
+	align-self: stretch;
+	flex-shrink: 0;
+	height: 1000px;
+
+	position: relative;
+	overflow: hidden;
+}
+
+.window {
+	background: #c0c0c0;
+	border-style: solid;
+	border-color: #ebebeb;
+	border-width: 2px 0px 0px 2px;
+	align-items: center;
+	flex-shrink: 1;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+	overflow: hidden;
+	justify-content: center;
+	max-width: 550px;
+}
+
+.window-div {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	align-items: top;
+	justify-content: right;
+}
+
+.bluebar {
+	background: linear-gradient( 90deg, rgba(0, 0, 128, 1) 0%, rgba(36, 150, 254, 1) 100% );
+	height: 39px;
+	position: absolute;
+	right: 0px;
+	left: 0px;
+	width: 100%;
+	top: 1px;
+	overflow: hidden;
+}
+
+.icons {
+	position: absolute;
+	inset: 0;
+}
+
+.bluebar-cross {
+	width: 26px;
+	height: 26px;
+	position: absolute;
+	right: 9.1px;
+	top: 6px;
+	object-fit: cover;
+}
+
+.bluebar-maximize {
+	width: 26px;
+	height: 26px;
+	position: absolute;
+	right: 43.1px;
+	top: 6px;
+	object-fit: cover;
+}
+
+.bluebar-minimize {
+	width: 26px;
+	height: 25.7px;
+	position: absolute;
+	right: 77.1px;
+	top: 6px;
+	object-fit: cover;
+}
+
+.img-20230317173130-1 {
+	border-style: solid;
+	border-color: #e2e2e2;
+	border-width: 4px 0px 0px 4px;
+	width: 75%;
+	height: 75%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 4px 4px 2px 4px rgba(0, 0, 0, 0.25);
+	object-fit: cover;
+	object-position: top;
+}
+
+.left-side {
+	padding: 0px 0px 0px 10px;
+	display: flex;
+	flex-direction: column;
+	gap: 35px;
+	align-items: start;
+	justify-content: flex-start;
+	flex-shrink: 0;
+	height: 550px;
+	width: 50%;
+	position: relative;
+	max-height: 550px;
+}
+
+.introduction-text {
+	display: flex;
+	flex-direction: column;
+	color: #e2e2e2;
+	text-align: left;
+	font-size: 24px;
+	font-weight: 400;
+	position: relative;
+	width: 60%;
+	height: auto;
+}
+
+.button-div {
+	display: flex;
+	flex-direction: column;
+	gap: 0px;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+	width: 100%;
+	position: relative;
+}
+
+.button {
+	padding: 0px 0px 0px 0px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+	position: relative;
+	box-shadow: 4px 4px 2px 4px rgba(0, 0, 0, 0.25);
+	overflow: hidden;
+}
+
+.learn-more {
+	color: #000000;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 400;
+	position: relative;
+	width: 155.66px;
+}
+
+.learn-more-span {
+	color: #e7e7e7;
+	font-size: 16px;
+	font-weight: 400;
+	text-decoration: underline;
+}
+
+.learn-more-span2 {
+	color: #e7e7e7;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.home-education {
+	padding: 12px 10px 12px 10px;
+	display: flex;
+	flex-direction: row;
+	gap: 35px;
+	align-items: start;
+	justify-content: center;
+	flex-shrink: 0;
+	position: relative;
+	overflow: hidden;
+}
+.education-div {
+	width: 50%;
+	height: fit-content;
+	display: flex;
+	flex-direction: row;
+	justify-content: right;
+	align-items: right;
+}
+.education-text {
+	color: #e2e2e2;
+	text-align: right;
+	font-size: 24px;
+	font-weight: 400;
+	position: relative;
+	align-self: stretch;
+	width: 75%;
+	height: auto;
+}
+
+.button-separation {
+	padding-left: 10px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	align-items: start;
+	justify-content: flex-start;
+	flex-shrink: 0;
+	width: 50%;
+	height: auto;
+	position: relative;
+}
+
+.button2 {
+	padding: 0px 0px 0px 0px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+	position: relative;
+	box-shadow: 4px 4px 2px 4px rgba(0, 0, 0, 0.25);
+	overflow: hidden;
+}
+
+.learn-more-span3 {
+	color: #e7e7e7;
+	font-size: 16px;
+	font-weight: 400;
+	text-decoration: underline;
+}
+
+.learn-more-span4 {
+	color: #e7e7e7;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.home-education-title {
+	display: flex;
+	flex-direction: row;
+	gap: 33px;
+	align-items: flex-start;
+	justify-content: start;
+	flex-shrink: 0;
+	height: auto;
+	position: relative;
+}
+
+.education {
+	color: #ffffff;
+	text-align: center;
+	font-size: 64px;
+	font-weight: 400;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.education-image {
+	flex-shrink: 0;
+	width: 100px;
+	height: 100px;
+	position: relative;
+	object-fit: cover;
+}
+
+.homw-options {
+	flex-shrink: 0;
+	width: 1920px;
+	height: 183px;
+	position: relative;
+	overflow: hidden;
+}
+
+.frame-2 {
+	width: 1920px;
+	height: 60px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.rectangle-1 {
+	background: #151515;
+	width: 1920px;
+	height: 60px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.welcome-to-the-website-3 {
+	color: #ffffff;
+	text-align: center;
+	font-size: 32px;
+	font-weight: 400;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1920px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.typewriter .type {
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+	width: fit-content;
+	border-right: .15em solid wheat; /* The typwriter cursor */
+	white-space: nowrap; /* Keeps the content on a single line */
+	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+	letter-spacing: .15em; /* Adjust as needed */
+	animation: typing 3.5s steps(25, end), blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+	from {
+		width: 0
+	}
+
+	to {
+		width: 100%
+	}
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+	from, to {
+		border-color: transparent
+	}
+
+	50% {
+		border-color: #dde1ed;
+	}
+}
+
+.navItem {
+	width: fit-content;
+}
+
+.animate-banner {
+	overflow: hidden;
+  	white-space: nowrap;
+}
+
+.animate-banner div {
+	position: relative;
+  	display: inline-block;
+  	animation: move 10s infinite linear;
+}
+
+@keyframes move {
+	from {
+	  left: 520px;
+	}
+	to {
+	  left: -550px;
+	}
+  }
+
+.left-banner {
+	width: 45%;
+}
+
+.right-banner {
+	width: 45%;
+}
+
+.time-banner {
+	width: 10%;
+}
