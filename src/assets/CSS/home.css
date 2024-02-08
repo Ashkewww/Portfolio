@@ -390,15 +390,15 @@
 .animate-banner div {
 	position: relative;
   	display: inline-block;
-  	animation: move 40s infinite linear;
+  	animation: move 10s infinite linear;
 }
 
 @keyframes move {
 	from {
-	  left: 400px;
+	  left: 520px;
 	}
 	to {
-	  left: -2800px;
+	  left: -550px;
 	}
   }
 
