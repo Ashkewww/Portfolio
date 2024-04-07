@@ -1,5 +1,6 @@
 'use client';
 
+
 export default function Hero() {
   return (
     <section className="text-gray-600 body-font background-global">
@@ -11,7 +12,7 @@ export default function Hero() {
           <h1 className="title-font sm:text-7xl text-3xl mb-4 font-medium text-white title-animation hover:cursor-pointer">Ayush&nbsp;
             <br className="hidden lg:inline-block" />Chandan
           </h1>
-          <p className="mb-8 leading-relaxed font-light md:text-xl text-yellow-50 hover:text-yellow-200 hover:cursor-pointer">I'm Ayush Chandan, an adept Software Developer with a keen eye for detail and a passion for innovation. With a strong background in both React and Next.js, alongside expertise in Artificial Intelligence and Machine Learning, I specialize in creating exceptional products. My proficiency in frontend development, coupled with my understanding of AI and ML, allows me to craft dynamic web applications with unparalleled functionality. I remain committed to delivering high-quality solutions that exceed expectations, continuously refining my skills to ensure I stay at the forefront of technology trends.</p>
+          <p className="mb-8 leading-relaxed font-light md:text-xl text-yellow-50 hover:text-yellow-200 hover:cursor-pointer">I&apos;m Ayush Chandan, an adept Software Developer with a keen eye for detail and a passion for innovation. With a strong background in both React and Next.js, alongside expertise in Artificial Intelligence and Machine Learning, I specialize in creating exceptional products. My proficiency in frontend development, coupled with my understanding of AI and ML, allows me to craft dynamic web applications with unparalleled functionality. I remain committed to delivering high-quality solutions that exceed expectations, continuously refining my skills to ensure I stay at the forefront of technology trends.</p>
           <div className="flex justify-center">
             <button className="inline-flex text-white bg-purple-900 border-0 py-2 px-6 focus:outline-none hover:bg-purple-700 rounded text-lg" onClick={() => {
               window.open("https://github.com/Ashkewww", "_blank");
