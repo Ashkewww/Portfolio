@@ -1,13 +1,10 @@
 ﻿import { useState } from 'react';
 import '../CSS/home.css';
-import textData from "../texts/source-texts.json"
+import textData from '../texts/source-texts.json';
 
 
 const Home = () => {
     const [time, setTime] = useState(new Date());
-
-
-
     setInterval(() => {
         setTime(new Date());
     }, 1000);
