@@ -40,17 +40,12 @@ export default function Header() {
             </div>
             <div className='hidden sm:inline font-semibold text-lg text-black'>
                 <ul className="flex justify-right">
-                    <li className="mx-1">
-                        <a href="/about" className="text-black hover:text-yellow-800">
-                            About
+                    <li className="mx-3">
+                        <a href="/home" className="text-black hover:text-yellow-800">
+                            Home
                         </a>
                     </li>
-                    <li className="mx-1">
-                        <a href="/projects" className="text-black hover:text-yellow-800">
-                            Projects
-                        </a>
-                    </li>
-                    <li className="mx-1">
+                    <li className="mx-3">
                         <a href="/contact" className="text-black hover:text-yellow-800">
                             Contact
                         </a>
@@ -65,13 +60,8 @@ export default function Header() {
             <div className={smolMenuVisibility.toString()}>
                 <ul className="flex justify-center">
                     <li className="mx-0.5 my-2">
-                        <a href="/about" className=" text-black hover:text-yellow-800">
-                            About
-                        </a>
-                    </li>
-                    <li className="mx-0.5 my-2">
-                        <a href="/projects" className="text-black hover:text-yellow-800">
-                            Projects
+                        <a href="/home" className=" text-black hover:text-yellow-800">
+                            Home
                         </a>
                     </li>
                     <li className="mx-0.5 my-2">
