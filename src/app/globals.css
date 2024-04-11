@@ -11,6 +11,10 @@ body {
     background-color: #16120e;
 }
 
+.background-global-light {
+    background-color: #413529;
+}
+
 .title-animation {
     transition: letter-spacing 0.4s ease;
 
