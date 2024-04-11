@@ -25,8 +25,12 @@ export default function ContacthtmlForm() {
         if (error) {
             console.log(error);
         } else {
-            alert("Message Sent Successfully!");
-            console.log(data);
+            setFormData({
+                name: null,
+                phone: null,
+                email: null,
+                message: null
+            })
         }
     }
 
