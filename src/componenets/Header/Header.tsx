@@ -41,7 +41,7 @@ export default function Header() {
             <div className='hidden sm:inline font-semibold text-lg text-black'>
                 <ul className="flex justify-right">
                     <li className="mx-3">
-                        <a href="/home" className="text-black hover:text-yellow-800">
+                        <a href="/" className="text-black hover:text-yellow-800">
                             Home
                         </a>
                     </li>
