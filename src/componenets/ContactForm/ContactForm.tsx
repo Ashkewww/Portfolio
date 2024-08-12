@@ -14,7 +14,7 @@ export default function ContacthtmlForm() {
             ...formData,
             [event.target.name]: event.target.value
         })
-    };
+    }
     const handleOnSubmit = async () => {
         const { data, error } = await supabase
             .from("Contacts")
@@ -32,7 +32,7 @@ export default function ContacthtmlForm() {
                 message: null
             })
         }
-    };
+    }
 
     return (
         <section className="body-font relative background-global text-gray-400 ">
